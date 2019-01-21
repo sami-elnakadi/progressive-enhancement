@@ -56,12 +56,30 @@ tr:nth-child(even) {background-color: #f2f2f2;}
 
 
 li:nth-child(1) {
-	background:url(/home/user/Bureau/learning-html-css/progressive-enhancement/Images/bien.png) no-repeat;
-	padding-right:-200px;
-	padding-top: 50px;		 
-	
-	
-}
+	background:url(/home/user/Bureau/learning-html-css/progressive-enhancement/Images/bien.png) no-repeat  300px;
+	/*padding-right:200px;*/
+	padding-top: 40px;		 
+	}
+
+li:nth-child(2) {
+	background:url(/home/user/Bureau/learning-html-css/progressive-enhancement/Images/bien.png) no-repeat  300px;
+	/*padding-right:200px;*/
+	padding-top: 40px;		 
+	}
+
+	li:nth-child(3) {
+	background:url(/home/user/Bureau/learning-html-css/progressive-enhancement/Images/bien.png) no-repeat  300px;
+	/*padding-right:200px;*/
+	padding-top: 40px;		 
+	}
+
 p:first-of-type {
 	font-weight:bold;
+}
+
+img {
+	float:left;
+	height: 40%;
+	width: 40%;
+	margin: 20px;	 
 }

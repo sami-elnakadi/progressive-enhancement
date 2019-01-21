@@ -1,5 +1,41 @@
 p{
-	font-size: 12px;
+	font-size: 18px;
 	font-family: Times new roman, serif;
-	color: purple;
+	color: blue;
+	line-height: 20px;
+}
+
+a{
+	color: red;
+}
+a:visited{
+	color:yellow;
+}
+a:hover{
+	background-color:red;
+}	
+body{
+	width: 90%;
+	margin-right: 100px;
+	margin-left: 100px;
+	background: linear-gradient(90deg, rgb(208, 226, 243), rgb(57, 57, 57));
+	background-image: url(https://i.stack.imgur.com/jGlzr.png);
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	background-size: cover;
+}
+q,blockquote{
+	display: block;
+	width: 50%;
+	margin-left: 120px;
+	font-size: 160%;
+	background-color: grey;
+	line-height: 25px;
+	border-left: 3px solid firebrick;
+	padding-left: 30px;
+	padding-bottom: 80px;
+	padding-top: 80px;
+}
+header{
+	background-color: yellow;
 }

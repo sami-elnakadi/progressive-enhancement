@@ -19,7 +19,7 @@ body{
 	margin-right: 100px;
 	margin-left: 100px;
 	background: linear-gradient(90deg, rgb(208, 226, 243), rgb(57, 57, 57));
-	background-image: url(https://i.stack.imgur.com/jGlzr.png);
+	background-image: url(http://studio.oiseau-libre.net/Images/_DSC7077.jpg);
 	background-repeat: no-repeat;
 	background-position: right bottom;
 	background-size: cover;
@@ -35,7 +35,33 @@ q,blockquote{
 	padding-left: 30px;
 	padding-bottom: 80px;
 	padding-top: 80px;
+	font-style: italic;
 }
 header{
-	background-color: yellow;
+	background-color: yellow;	
+}
+
+strong.bien{
+	text-transform: uppercase;
+	color:green;
+}
+strong.mal{
+	text-transform: uppercase;
+	color:red;
+}
+table{
+	}
+
+tr:nth-child(even) {background-color: #f2f2f2;}
+
+
+li:nth-child(1) {
+	background:url(/home/user/Bureau/learning-html-css/progressive-enhancement/Images/bien.png) no-repeat;
+	padding-right:-200px;
+	padding-top: 50px;		 
+	
+	
+}
+p:first-of-type {
+	font-weight:bold;
 }

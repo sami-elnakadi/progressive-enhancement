@@ -1,6 +1,11 @@
+h1,h2,h3,h4{
+	font-family: Coiny, cursive;
+}
+
+
 p{
 	font-size: 18px;
-	font-family: Times new roman, serif;
+	font-family: Open Sans, sans-serif;
 	color: blue;
 	line-height: 20px;
 }
@@ -36,6 +41,8 @@ q,blockquote{
 	padding-bottom: 80px;
 	padding-top: 80px;
 	font-style: italic;
+	position: relative;
+	left: 380px;
 }
 header{
 	background-color: yellow;	
@@ -62,13 +69,13 @@ li:nth-child(1) {
 	}
 
 li:nth-child(2) {
-	background:url(/home/user/Bureau/learning-html-css/progressive-enhancement/Images/bien.png) no-repeat  300px;
+	background:url(/home/user/Bureau/learning-html-css/progressive-enhancement/Images/mal.png) no-repeat  300px;
 	/*padding-right:200px;*/
 	padding-top: 40px;		 
 	}
 
 	li:nth-child(3) {
-	background:url(/home/user/Bureau/learning-html-css/progressive-enhancement/Images/bien.png) no-repeat  300px;
+	background:url(/home/user/Bureau/learning-html-css/progressive-enhancement/Images/chat.png) no-repeat  300px;
 	/*padding-right:200px;*/
 	padding-top: 40px;		 
 	}

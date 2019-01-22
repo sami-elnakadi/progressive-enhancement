@@ -1,7 +1,4 @@
-body{
-  background-color:;
-  
-}
+
 
 .menu {
   display: flex;
@@ -57,11 +54,18 @@ color:#FFFFFF;
 }
 
 .partie1{
-  background-color: #13AFCF;
+  background-color: #13AFCF ;
   height: 150px
   width:300px;
   margin-top:-20px;
+  padding-bottom: 30px;
   
+}
+
+.geek{
+  position: absolute;
+  left: 50px;
+  top:50px;
 }
 
 .container{
@@ -70,12 +74,52 @@ color:#FFFFFF;
 
 .slogan{
   color:#FFFFFF;
+  margin:0 5% 0;
+  padding-top: 20px;
+  padding-bottom:20px;
+  font-family:'Montserrat', sans-serif ;  
 }
 
 .button{
   background-color:#FFA233;
   border-radius: 20px;
-  font-family: ;  
+  font-family:'Montserrat', sans-serif ;  
   font-size: 30px;
   padding: 10px;
+  margin:0 20% 0;
+  padding-bottom: 20px;
+}
+
+.partie2{
+  font-family:'Montserrat', sans-serif ; 
+  margin: 0 25% 0; 
+
+}
+
+.partie3{
+  height: 300px ;
+  background-color: #13AFCF;
+  font-family: 'Montserrat', sans-serif ;
+  color:#FFFFFF;
+}
+
+.container2{
+  width: 90%; 
+  margin: 0 5% 0 5%;
+  padding-left: 60px;
+}
+
+.partie_g{
+  height: auto;
+  float: left;
+  width: 45%;
+
+}
+
+
+.partie_d{
+  height: auto;
+  float: left;
+  width: 45%;
+
 }

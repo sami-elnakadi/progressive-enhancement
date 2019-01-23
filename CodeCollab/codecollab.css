@@ -2,19 +2,38 @@ body{
 	 background-color:#DCDCDC;
 }
 
-.menu1{
 
+.navbar{
+	display: flex;
+	justify-content: space-between;
+}
+
+.menu{
+display: flex;
+list-style: none;
+}
+
+.menu0{
+	display: flex;
+	list-style: none;
+}
+
+
+.menu1{
+	padding: 10px;
 }
 
 .menu2{
-
+	padding: 10px;
 }
+
 
 
  .liens_menu{
 
  text-decoration : none;
  color:#000000;
+
 
  }
 
@@ -59,5 +78,112 @@ body{
 /*menu ci dessus*/
 
 .partie1{
-	margin:0 25% 0;
+	margin:0 25% 0 25%;
+}
+
+.partie2{
+	background-color: #414556;
+	color:#FFFFFF;
+	display: grid;
+  	grid-template-columns: repeat(4, 20%);
+  	justify-content: center;
+  	border: 1px black solid;
+
+  
+}
+
+.item:last-child{
+	border: none;
+}
+
+.item{
+	border-right: 1px black solid;	 
+	text-align: center;
+}
+
+.partie3{
+height: 675px;
+}
+
+.projet{
+font-size: 25px;
+text-align: center;
+margin:0 22% 0 22% ;
+padding-top: 50px;
+padding-bottom:50px;
+}
+
+.button3{
+  background-color:#045FB4;
+  border-radius: 20px;
+  font-family:'Montserrat', sans-serif ;  
+  font-size: 30px;
+  padding: 10px;
+  margin:0 35% 0 35%;
+  padding-bottom: 20px;
+  width: 380px;
+  border:1px black solid;
+
+}
+
+.credit{
+	text-align: center;
+}
+
+.screen{
+	position: absolute;
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin: 0 25% 0 25%;
+	
+}
+
+.fond{
+width: 100%;
+height: auto;
+margin-top: ;: 100px;
+}
+
+.partie4{
+	background-color: #FFFFFF	
+}
+
+.price{
+	text-align: center;
+	font-size: 25px;
+text-align: center;
+margin:0 22% 0 22% ;
+padding-top: 20px;
+
+}
+
+.grille2{
+
+	display: grid;
+	grid-template-columns: repeat(2, 50%);
+  	justify-content: center;
+}
+
+.item2{
+	text-align: center;
+	border-right: 1px solid grey;
+
+}
+.item2:last-child{
+	border: none;
+}
+
+.button4{
+  background-color:#045FB4;
+  border-radius: 20px;
+  font-family:'Montserrat', sans-serif ;  
+  font-size: 30px;
+  padding: 10px;
+  margin:0 20% 0 20%;
+  padding-bottom: 20px;
+  width: 380px;
+  border:1px black solid;
+
 }

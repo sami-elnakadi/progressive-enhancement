@@ -147,7 +147,7 @@ margin-top: ;: 100px;
 }
 
 .partie4{
-	background-color: #FFFFFF	
+	background-color: #FFFFFF;		
 }
 
 .price{
@@ -164,6 +164,8 @@ padding-top: 20px;
 	display: grid;
 	grid-template-columns: repeat(2, 50%);
   	justify-content: center;
+  	margin-top:50px;
+	padding-bottom: 50px;
 }
 
 .item2{
@@ -186,4 +188,63 @@ padding-top: 20px;
   width: 380px;
   border:1px black solid;
 
+}
+
+.partie5{
+
+
+}
+
+.text{
+text-align: center;
+	font-size: 25px;
+text-align: center;
+margin:0 22% 0 22% ;
+padding-top: 20px;
+
+}
+
+.liste_logo{
+	display: flex;
+	margin: 0 15% 0; 
+	background-color: none;
+	list-style-type: none;
+	padding: 40px;
+
+}
+
+.logo1{
+	width: 70%;
+	height: auto;
+	
+
+}
+
+.logo2{
+	width: 70%;
+	height: auto;
+	padding-right: 80px;
+}
+
+.logo3{
+	width: 70%;
+	height: auto;
+}
+
+.logo4{
+	width: 70%;
+	height: auto;
+	
+}
+
+.logo5{
+	width: 70%;
+	height: auto;
+	
+}
+
+.logo6{
+	width: 70%;
+	height: auto;
+		
 }

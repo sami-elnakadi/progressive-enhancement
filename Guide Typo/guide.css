@@ -1,0 +1,91 @@
+nav {
+	background-color: #000000
+}
+.navbar{
+	display: flex;
+	justify-content: space-between;
+
+}
+
+.menu{
+display: flex;
+list-style: none;
+}
+
+.menu0{
+	display: flex;
+	list-style: none;
+}
+
+
+.menu1{
+	padding: 10px;
+}
+
+.menu2{
+	padding: 10px;
+}
+
+.liens_menu{
+
+ text-decoration : none;
+ color:#FFFFFF;
+}
+
+
+h1{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	text-align: center;
+	font-size: 40px;
+	font-family: 'Major Mono Display', monospace;
+}
+
+h2 {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 25px;
+	text-align: center;
+}
+
+h3{
+		font-family: 'Ubuntu', sans-serif;
+	font-size: 20px;
+	text-align: center;
+}
+
+p {
+	font-size: 20px	font-family: 'Ubuntu', sans-serif;
+	font-size: 18px;
+	text-align: center;;
+	line-height: 2;
+	text-align: center;
+	padding-right: 200px;
+}
+
+li{
+	font-size: 18px;
+	line-height: 1.5;
+}
+
+.image1{
+	display: block;
+	float:right;
+	margin-left: 50px;
+	width:40%;
+	height:auto;
+}
+.image2{
+	display: block;
+	float:left;
+	margin-left: 50px;
+	width:40%;
+	height:auto;
+}
+
+.image_liste{
+	margin: 0 25% 0 25%;
+}
+
+.liste{
+	list-style: none;
+}

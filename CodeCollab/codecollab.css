@@ -28,7 +28,11 @@ list-style: none;
 	padding: 10px;
 }
 
-
+.image_collab{
+	width: 50%;
+	height:auto;
+	margin-right: -90px;
+}
 
  .liens_menu{
 

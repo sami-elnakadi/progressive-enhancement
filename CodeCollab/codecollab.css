@@ -3,6 +3,7 @@ body{
 }
 
 
+
 .navbar{
 	display: flex;
 	justify-content: space-between;
@@ -56,6 +57,7 @@ list-style: none;
  }
  .liens_bout1{
 	color:#FFFFFF;
+
  }
 
  .button2{
@@ -192,7 +194,8 @@ padding-top: 20px;
 
 .partie5{
 
-
+	height: 400px; 
+	margin-top: 50px;
 }
 
 .text{
@@ -247,4 +250,75 @@ padding-top: 20px;
 	width: 70%;
 	height: auto;
 		
+}
+
+.partie6{
+	background-color: #FFFFFF;
+	padding-top:50px;
+	padding-bottom: 40px;
+}
+
+.formu{
+	padding: 30px;
+	display: grid;
+	grid-template-columns: repeat(1, 50%);
+  	justify-content: center;
+  	background-color: #E8ECF2;
+  	width: 300px;
+  	margin: 0 35% 0 35%;
+  	border: 1px solid black;
+}
+
+.submit{
+	 background-color:#045FB4;
+  border-radius: 20px;
+  font-family:'Montserrat', sans-serif ;  
+  font-size: 20px;
+  padding: 10px;
+  margin: 20% -50% 5% -50%;
+  width: 300px;
+  border:1px black solid;
+}
+
+.textform{
+	text-align: center;
+	font-size: 15px;
+
+}
+
+.underline{
+	color: #7584B7;
+	text-align: center;
+	font-size: 15px;
+}
+
+.partie7{
+
+	background-color: #414556;
+}
+
+.footer{
+	display: grid;
+	grid-template-columns: repeat(6, 15%);
+  	justify-content: center;
+
+}
+
+.footer_titre{
+	list-style: none;
+	color: #7584B7;
+}
+
+.footer_texte{
+	list-style: none;
+	color: #FFFFFF
+}
+
+.icon{
+	display: inline;
+	margin:0 25% 0 25%;
+}
+
+.footer_icon{
+	list-style: none;
 }

@@ -1,7 +1,45 @@
-body{
-	padding:100px;
-	padding-right: 200px;
+nav {
+	background-color: #000000
 }
+.navbar{
+	display: flex;
+	justify-content: space-between;
+
+}
+
+.menu{
+display: flex;
+list-style: none;
+}
+
+.menu0{
+	display: flex;
+	list-style: none;
+}
+
+
+.menu1{
+	padding: 10px;
+}
+
+.menu2{
+	padding: 10px;
+}
+
+.liens_menu{
+
+ text-decoration : none;
+ color:#FFFFFF;
+}
+
+main {
+	width: 80%;
+	background-color: #FFFFFF;
+	margin-left: 130px;
+}
+
+
+
 
 h1{
 	padding-top: 50px;

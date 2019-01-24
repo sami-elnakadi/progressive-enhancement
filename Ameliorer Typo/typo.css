@@ -32,6 +32,15 @@ list-style: none;
  color:#FFFFFF;
 }
 
+header{
+	background-image: url("/home/user/Bureau/learning-html-css/progressive-enhancement/Images/bannertypo.jpg");
+	height:600px;
+	background-attachment: fixed;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;	
+}
+
 main {
 	width: 80%;
 	background-color: #FFFFFF;
@@ -63,12 +72,16 @@ p {
 .exemple{
 border:1px solid black;
 margin:0 25% 0 25%;
+text-align: center;
+background-color: #D8D8D8;
 }
 
 .exemple_liste{
 	list-style: none;
 	border: 1px solid black;
 	margin:0 25% 0 25%;
+	text-align: center;
+	background-color: #D8D8D8;
 }
 
 .image1{

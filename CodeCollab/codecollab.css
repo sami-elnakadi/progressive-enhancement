@@ -315,10 +315,8 @@ padding-top: 20px;
 }
 
 .icon{
-	display: inline;
-	margin:0 25% 0 25%;
-}
-
-.footer_icon{
-	list-style: none;
+	display: grid;
+	grid-template-columns: repeat(5, 10%);
+  	justify-content: center;
+  	padding-bottom: 30px;
 }

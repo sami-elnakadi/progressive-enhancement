@@ -28,7 +28,7 @@ a:link { text-decoration: none; color: #ffffff; }
 
 .image_restdb { width: 70px; height: auto; }
 
-.partie1 { background-color: #13AFCF; margin-top: -20px; padding-bottom: 30px; }
+.partie1 { background-color: #13AFCF; margin-top: -20px; padding-bottom: 30px; position: relative; }
 
 .geek { position: absolute; left: 50px; top: 50px; }
 
@@ -61,4 +61,6 @@ a:link { text-decoration: none; color: #ffffff; }
 .button2 { background-color: #FFA233; border-radius: 20px; padding: 10px; margin: 0 20% 0; padding-bottom: 20px; width: 300px; }
 
 .liste1 { display: inline; padding: 20px; background-color: #61616C; color: #ffffff; font-family: 'Roboto', sans-serif; }
+
+/* @media only screen and (max-width:320px){ .menu{ display: flex; flex-direction: column; } section{ display: flex; flex-direction: column; } .partie1 .partie2 .partie3 .partie4 .partie5 { display: flex; flex-direction: row; flex-wrap: wrap; justify-content: flex-start; } .partie6{ display: flex; flex-direction: column; padding-right: 310px; } .geek{ width: 30px; } .logo{ width: 5%; } }*/
 /*# sourceMappingURL=Turlututu.css.map */
